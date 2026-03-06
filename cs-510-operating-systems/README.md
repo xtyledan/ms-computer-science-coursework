@@ -38,10 +38,3 @@ The program extracts the following values and prints them in a formatted table:
 - CPU usage percentage
 
 Column headers are used only to format the output and organize the displayed data.
-
-## Running the Program
-
-1. Install Python.
-2. Open a terminal (macOS/Linux) or Command Prompt/PowerShell (Windows).
-3. Navigate to the folder containing the program using the `cd` command.
-4. Install the required dependency:
