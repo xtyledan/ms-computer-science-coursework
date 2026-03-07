@@ -1,5 +1,6 @@
 <h1 align="center">Week 1 — Process Inspection with Python</h1>
 
+
 ## Learning Objectives
 
 By the end of this module, the following objectives are demonstrated:
