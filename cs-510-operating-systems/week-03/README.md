@@ -1,4 +1,4 @@
-<h1 align="center">Week 3 — CPU Scheduling and Memory Management</h1>
+<h1 align="center"> CPU Scheduling and Memory Management</h1>
 
 ## Learning Objectives
 
