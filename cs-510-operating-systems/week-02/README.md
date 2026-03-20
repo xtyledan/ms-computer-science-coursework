@@ -1,4 +1,4 @@
-<h1 align="center">Week 2 — Thread Management with Python</h1>
+<h1 align="center"> Thread Management with Python</h1>
 
 ## Learning Objectives
 
