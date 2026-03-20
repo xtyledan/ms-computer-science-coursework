@@ -1,4 +1,4 @@
-<h1 align="center">Week 1 — Process Inspection with Python</h1>
+<h1 align="center"> Process Inspection with Python</h1>
 
 ## Learning Objectives
 
