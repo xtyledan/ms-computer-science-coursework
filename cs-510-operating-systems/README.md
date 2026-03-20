@@ -1,41 +1,44 @@
-<h1 align="center">Week 1 — Process Inspection with Python</h1> TEST
+# CS-510 Operating Systems Principles
 
+## Course Overview
 
-## Learning Objectives
+CS-510 Operating Systems Principles explores how applications interact with operating systems and the underlying patterns used to build, deploy, and run modern software systems. The course focuses on understanding how operating systems manage resources, support multiple users and applications, and provide the foundation for software that runs across diverse platforms.
 
-By the end of this module, the following objectives are demonstrated:
+Modern software systems operate in complex environments. Applications may run on multiple operating systems, interact with cloud platforms, aggregate data from many sources, and provide access across a wide range of devices. Understanding the interaction between software and operating systems is critical for designing reliable, scalable applications.
 
-- Describe the components of a process  
-- Describe how processes are created and destroyed  
-- Explain how processes communicate and share data  
+## Real-World Context
 
-## Module Overview
+Operating systems knowledge becomes especially important when software must run across different environments. For example, a single C++ application may need to compile and run on both Windows and AIX (an IBM Linux-based system), requiring developers to manage cross-platform compatibility while maintaining a unified codebase.
 
-Modern operating systems manage multiple running programs through **process management**. A process represents an instance of a program currently executing. Understanding how processes are created, scheduled, and terminated helps developers design applications that efficiently use system resources.
+In modern architectures, this complexity increases significantly. Backend services often run on Linux-based cloud infrastructure while supporting client applications across platforms such as Android, iOS, Xbox, Amazon Fire TV, Roku, and smart TVs. These environments combine operating systems, platforms, networking, and distributed infrastructure to deliver software globally.
 
-This module introduces the structure and lifecycle of processes and how operating systems coordinate CPU and memory usage across many active applications. These concepts are foundational for understanding system performance, concurrency, and modern computer architecture.
+Understanding how operating systems coordinate processing, memory, storage, and application execution is essential to building systems that function correctly in these environments.
 
-## Process Inspection Program
+## Course Approach
 
-The Python program developed for this module uses the **psutil** library to retrieve and analyze information about active system processes.
+This course approaches operating system concepts in incremental steps. Complex systems are broken down into smaller components to build understanding gradually, then reassembled to form a complete picture of how operating systems function.
 
-### How the Code Retrieves Processes
+Key topics include:
 
-The program retrieves running processes using the `psutil.process_iter()` function. This function creates an iterator that loops through every active process on the system.
+- Process and resource management  
+- Memory management  
+- File systems  
+- Concurrency and scheduling  
+- System-level interactions between applications and the OS  
 
-The list `['pid', 'name', 'memory_percent', 'cpu_percent']` is passed into the function to request specific process attributes. Limiting the requested data improves efficiency by collecting only the necessary information.
+## Tools and Technologies
 
-During execution:
+Python is used throughout the course as a practical tool to explore operating system behavior. Programs written during the course will interact with system resources and help demonstrate how operating systems manage processes, users, and computational workloads.
 
-- Each process is accessed as a **Process object**
-- Process information is stored in `proc.info`
-- `proc.info` contains a dictionary of the requested attributes
+While Python is used for assignments, the course focuses primarily on operating system concepts rather than deep Python programming. Standard constructs such as functions and basic library usage are sufficient for completing coursework.
 
-The program extracts the following values and prints them in a formatted table:
+## Repository Contents
 
-- Process ID
-- Process name
-- Memory usage percentage
-- CPU usage percentage
+This directory contains coursework and programming assignments completed for CS-510, including:
 
-Column headers are used only to format the output and organize the displayed data.
+- Weekly programming assignments  
+- Operating system exploration exercises  
+- System interaction scripts  
+- Supporting documentation
+
+The materials in this folder demonstrate practical exploration of operating system behavior through code and analysis.
