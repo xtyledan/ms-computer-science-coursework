@@ -1,44 +1,54 @@
-# CS-510 Operating Systems Principles
+# MS Computer Science — Software Engineering
 
-## Course Overview
+## Overview
 
-CS-510 Operating Systems Principles explores how applications interact with operating systems and the underlying patterns used to build, deploy, and run modern software systems. The course focuses on understanding how operating systems manage resources, support multiple users and applications, and provide the foundation for software that runs across diverse platforms.
+Master of Science (MS) in Computer Science with a concentration in Software Engineering.
 
-Modern software systems operate in complex environments. Applications may run on multiple operating systems, interact with cloud platforms, aggregate data from many sources, and provide access across a wide range of devices. Understanding the interaction between software and operating systems is critical for designing reliable, scalable applications.
+This repository documents coursework, programming assignments, and academic projects spanning core areas of computer science, including algorithms, data structures, operating systems, networking, and software development. The work reflects both theoretical foundations and applied implementation across multiple domains.
 
-## Real-World Context
+## Scope
 
-Operating systems knowledge becomes especially important when software must run across different environments. For example, a single C++ application may need to compile and run on both Windows and AIX (an IBM Linux-based system), requiring developers to manage cross-platform compatibility while maintaining a unified codebase.
+The repository captures progression through graduate-level study, emphasizing:
 
-In modern architectures, this complexity increases significantly. Backend services often run on Linux-based cloud infrastructure while supporting client applications across platforms such as Android, iOS, Xbox, Amazon Fire TV, Roku, and smart TVs. These environments combine operating systems, platforms, networking, and distributed infrastructure to deliver software globally.
+- Algorithmic problem solving and complexity analysis  
+- Data structure design and optimization  
+- Systems-level understanding of operating systems and resource management  
+- Networking principles and distributed systems  
+- Software engineering practices, including design, testing, and maintainability  
 
-Understanding how operating systems coordinate processing, memory, storage, and application execution is essential to building systems that function correctly in these environments.
+## Systems Perspective
 
-## Course Approach
+A significant portion of the work focuses on how software operates within and across systems. This includes:
 
-This course approaches operating system concepts in incremental steps. Complex systems are broken down into smaller components to build understanding gradually, then reassembled to form a complete picture of how operating systems function.
+- Interaction between applications and operating systems  
+- Resource management (CPU, memory, storage)  
+- Concurrency and scheduling behavior  
+- Cross-platform considerations  
+- Execution in local and distributed environments  
 
-Key topics include:
-
-- Process and resource management  
-- Memory management  
-- File systems  
-- Concurrency and scheduling  
-- System-level interactions between applications and the OS  
+These areas form the foundation for building reliable and scalable software systems.
 
 ## Tools and Technologies
 
-Python is used throughout the course as a practical tool to explore operating system behavior. Programs written during the course will interact with system resources and help demonstrate how operating systems manage processes, users, and computational workloads.
+Coursework primarily uses general-purpose programming languages and standard development tools to explore system behavior and software design. Emphasis is placed on:
 
-While Python is used for assignments, the course focuses primarily on operating system concepts rather than deep Python programming. Standard constructs such as functions and basic library usage are sufficient for completing coursework.
+- Writing programs that interact with system resources  
+- Implementing algorithms and data structures  
+- Analyzing system performance and behavior  
 
-## Repository Contents
+The focus remains on concepts and problem-solving rather than language-specific depth.
 
-This directory contains coursework and programming assignments completed for CS-510, including:
+## Repository Structure
 
-- Weekly programming assignments  
-- Operating system exploration exercises  
-- System interaction scripts  
-- Supporting documentation
+This repository includes:
 
-The materials in this folder demonstrate practical exploration of operating system behavior through code and analysis.
+- Programming assignments  
+- Academic projects  
+- System-level experiments  
+- Supporting documentation and analysis  
+
+Each directory represents a specific course or topic area, demonstrating applied understanding through code and structured exploration.
+
+## Purpose
+
+This repository serves as a comprehensive record of graduate-level work in computer science, reflecting both conceptual understanding and practical implementation across software engineering and systems domains.
