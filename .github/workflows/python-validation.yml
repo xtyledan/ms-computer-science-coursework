@@ -4,9 +4,15 @@ on:
   push:
     branches:
       - main
+
   pull_request:
     branches:
       - main
+
+  schedule:
+    - cron: '0 6 * * 1'
+      timezone: "America/Los_Angeles"
+
   workflow_dispatch:
 
 permissions:
@@ -53,10 +59,7 @@ jobs:
 
           for path in files:
               try:
-                  py_compile.compile(
-                      str(path),
-                      doraise=True
-                  )
+                  py_compile.compile(str(path), doraise=True)
                   print(f"PASS: {path}")
               except py_compile.PyCompileError as error:
                   print(f"FAIL: {path}")
