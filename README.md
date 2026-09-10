@@ -1,5 +1,7 @@
 # MS Computer Science — Software Engineering
 
+## [![Python Coursework Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml) [![Python Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml) [![CodeQL Advanced](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml) [![Copilot cloud agent](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot)
+
 ## Overview
 
 Master of Science (MS) in Computer Science with a concentration in Software Engineering.
