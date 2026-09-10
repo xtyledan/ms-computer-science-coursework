@@ -34,5 +34,5 @@ jobs:
             --verbose
             --no-progress
             --accept 200,204,206,429
-            "./**/*.md"
+            ./**/*.md
           fail: true
