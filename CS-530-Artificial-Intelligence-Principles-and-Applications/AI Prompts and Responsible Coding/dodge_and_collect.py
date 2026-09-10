@@ -141,7 +141,7 @@ def main():
 
     running = True
     while running:
-        dt = clock.tick(FPS)
+        clock.tick(FPS)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

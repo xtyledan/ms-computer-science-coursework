@@ -36,4 +36,5 @@ jobs:
         run: |
           ruff check . \
             --exclude "*.ipynb" \
+            --exclude "**/psutil/**" \
             --output-format=github

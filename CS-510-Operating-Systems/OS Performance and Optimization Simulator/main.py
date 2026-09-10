@@ -10,29 +10,30 @@
                   insert your code as per the instructions.
 """  
 import os
-from datetime import datetime
-import psutil  # requires pip install
 import sys
 import threading
+from datetime import datetime, timezone
+
+import psutil  # requires pip install
 
 """
   Three provided Utility functions to use
 """
 def printBlankLines(lines: int):
-    for i in range(lines):
-        print("")
+    for _ in range(lines):
+        print()
 
 def printMsg1(num):
     current_thread = threading.current_thread()
     print(f"Thread 1 executing on name={current_thread.name}, id={current_thread.ident}, native_id={current_thread.native_id}")
-    print("Thread 1 cubed: {}" .format(num * num * num))
+    print(f"Thread 1 cubed: {num * num * num}")
     print(f"Thread 1 finished on name={current_thread.name}, id={current_thread.ident}")
 
 
 def printMsg2(num):
     current_thread = threading.current_thread()
     print(f"Thread 2 executing on name={current_thread.name}, id={current_thread.ident}, native_id={current_thread.native_id}")
-    print("Thread 2 squared: {}" .format(num * num))
+    print(f"Thread 2 squared: {num * num}")
     print(f"Thread 2 finished on name={current_thread.name}, id={current_thread.ident}")
 
 
@@ -53,9 +54,9 @@ def getFileDiskUsageStatistics() -> None:
 
     print(f"File Name: {target_file}")
     print(f"File Size: {file_stats.st_size} bytes")
-    print(f"Last Modified: {datetime.fromtimestamp(file_stats.st_mtime)}")
-    print(f"Last Accessed: {datetime.fromtimestamp(file_stats.st_atime)}")
-    print(f"Created: {datetime.fromtimestamp(created_time)}")
+    print(f"Last Modified: {datetime.fromtimestamp(file_stats.st_mtime, timezone.utc)}")
+    print(f"Last Accessed: {datetime.fromtimestamp(file_stats.st_atime, timezone.utc)}")
+    print(f"Created: {datetime.fromtimestamp(created_time, timezone.utc)}")
     print(f"Disk Total: {disk_usage.total} bytes")
     print(f"Disk Used: {disk_usage.used} bytes")
     print(f"Disk Free: {disk_usage.free} bytes")

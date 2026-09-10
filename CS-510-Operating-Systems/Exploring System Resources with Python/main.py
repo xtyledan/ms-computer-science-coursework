@@ -10,6 +10,7 @@ Modify as you like, experimentation is fun!
 
 import psutil
 
+
 def get_cpu_usage():
     """
     Return the current CPU usage percentage.

@@ -1,5 +1,6 @@
 import psutil
 
+
 def display_process_info():
     """
     Retrieves and displays information about all active system processes.

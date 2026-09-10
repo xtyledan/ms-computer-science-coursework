@@ -1,5 +1,6 @@
 import threading
 
+
 def first_function():
     """
     Displays a unique message identifying this function.
