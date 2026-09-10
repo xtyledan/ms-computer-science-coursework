@@ -17,7 +17,8 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '22 19 * * 3'
+    - cron: '0 6 * * 1'
+      timezone: "America/Los_Angeles"
 
 jobs:
   analyze:
