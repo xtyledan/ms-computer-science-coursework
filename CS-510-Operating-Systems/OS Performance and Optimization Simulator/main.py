@@ -12,7 +12,7 @@
 import os
 import sys
 import threading
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import psutil  # requires pip install
 
@@ -54,9 +54,9 @@ def getFileDiskUsageStatistics() -> None:
 
     print(f"File Name: {target_file}")
     print(f"File Size: {file_stats.st_size} bytes")
-    print(f"Last Modified: {datetime.fromtimestamp(file_stats.st_mtime, timezone.utc)}")
-    print(f"Last Accessed: {datetime.fromtimestamp(file_stats.st_atime, timezone.utc)}")
-    print(f"Created: {datetime.fromtimestamp(created_time, timezone.utc)}")
+    print(f"Last Modified: {datetime.fromtimestamp(file_stats.st_mtime, UTC)}")
+    print(f"Last Accessed: {datetime.fromtimestamp(file_stats.st_atime, UTC)}")
+    print(f"Created: {datetime.fromtimestamp(created_time, UTC)}")
     print(f"Disk Total: {disk_usage.total} bytes")
     print(f"Disk Used: {disk_usage.used} bytes")
     print(f"Disk Free: {disk_usage.free} bytes")
