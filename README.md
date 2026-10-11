@@ -6,6 +6,7 @@
 ![Concentration](https://img.shields.io/badge/Concentration-Software%20Engineering-6F42C1?style=flat-square)
 ![University](https://img.shields.io/badge/University-SNHU-FDB913?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-2EA44F?style=flat-square)
+[![Repo Size](https://img.shields.io/github/repo-size/xtyledan/ms-computer-science-coursework?style=flat-square)](https://github.com/xtyledan/ms-computer-science-coursework)
 
 ## Overview
 
