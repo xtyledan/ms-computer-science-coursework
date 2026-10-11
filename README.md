@@ -1,7 +1,12 @@
-# MS Computer Science — Software Engineering
+# MS Computer Science — Software Engineering 
 
 ## [![Python Coursework Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml) [![Python Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml) [![CodeQL Advanced](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml) [![Copilot cloud agent](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot)
-
+![Degree](https://img.shields.io/badge/Degree-Master%20of%20Science-003366?style=flat-square)
+![Field](https://img.shields.io/badge/Field-Computer%20Science-007ACC?style=flat-square)
+![Concentration](https://img.shields.io/badge/Concentration-Software%20Engineering-6F42C1?style=flat-square)
+![University](https://img.shields.io/badge/University-SNHU-FDB913?style=flat-square)
+![Status](https://img.shields.io/badge/Status-In%20Progress-2EA44F?style=flat-square)
+```
 ## Overview
 
 Master of Science (MS) in Computer Science with a concentration in Software Engineering.
