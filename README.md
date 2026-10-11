@@ -6,7 +6,7 @@
 ![Concentration](https://img.shields.io/badge/Concentration-Software%20Engineering-6F42C1?style=flat-square)
 ![University](https://img.shields.io/badge/University-SNHU-FDB913?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-2EA44F?style=flat-square)
-```
+
 ## Overview
 
 Master of Science (MS) in Computer Science with a concentration in Software Engineering.
