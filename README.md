@@ -1,85 +1,157 @@
-# MS Computer Science | Software Engineering
 
-![Degree](https://img.shields.io/badge/Degree-Master_of_Science-003366?style=flat-square)
-![Concentration](https://img.shields.io/badge/Software-Engineering-6F42C1?style=flat-square)
-![University](https://img.shields.io/badge/University-SNHU-FDB913?style=flat-square)
-![Status](https://img.shields.io/badge/Status-In_Progress-2EA44F?style=flat-square)
+<div align="center">
 
-## Build & Quality
+# MS Computer Science
+### Software Engineering Portfolio
 
-[![Python Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml)
-[![Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml)
-[![CodeQL](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml)
-[![Copilot Agent](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot)
+**Southern New Hampshire University | Master of Science in Computer Science**
 
-[![Last Commit](https://img.shields.io/github/last-commit/xtyledan/ms-computer-science-coursework?style=flat-square)](https://github.com/xtyledan/ms-computer-science-coursework/commits)
-![Repo Size](https://img.shields.io/github/repo-size/xtyledan/ms-computer-science-coursework?style=flat-square)
-![Top Language](https://img.shields.io/github/languages/top/xtyledan/ms-computer-science-coursework?style=flat-square)
-![License](https://img.shields.io/github/license/xtyledan/ms-computer-science-coursework?style=flat-square)
+![Degree](https://img.shields.io/badge/M.S.-Computer_Science-003366?style=for-the-badge)
+![Concentration](https://img.shields.io/badge/Focus-Software_Engineering-6F42C1?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In_Progress-2EA44F?style=for-the-badge)
+
+**Graduate coursework, applied programming, and software engineering projects.**
+
+[Portfolio](https://xtyledan.github.io/) · [GitHub Profile](https://github.com/xtyledan) · [Repository](https://github.com/xtyledan/ms-computer-science-coursework)
+
+</div>
 
 ---
 
-## 01 / Overview
+## About This Repository
 
-A graduate-level academic portfolio documenting coursework, programming assignments, and software engineering projects completed throughout the **Master of Science in Computer Science** program at Southern New Hampshire University.
+This repository is a technical portfolio documenting my graduate studies in **Computer Science with a concentration in Software Engineering** at Southern New Hampshire University.
 
-The repository demonstrates the application of computer science principles through software development, systems analysis, technical experimentation, and structured problem-solving.
+It showcases practical applications of computer science principles through software development, system design, data analysis, artificial intelligence, and database engineering.
 
-> **Objective:** Bridge theoretical computer science concepts with practical software engineering through reliable, maintainable, and efficient implementations.
+Each project represents an opportunity to translate academic concepts into functional implementations while emphasizing code quality, maintainability, and structured problem-solving.
 
-## 02 / Technical Stack
+> **My Focus:** Building reliable, scalable, and maintainable software by applying sound engineering principles to real-world technical challenges.
 
-**Languages & Frameworks**
+---
+
+## Technology Stack
+
+### Programming & Backend Development
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-**Development Tools**
+### Development & Automation
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square)
+![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-## 03 / Core Competencies
+---
 
-| Discipline | Focus Areas |
+## Academic Focus & Technical Expertise
+
+| Area | Skills & Applications |
 |:---|:---|
-| **Software Engineering** | Architecture, design patterns, maintainability, development methodologies |
-| **Algorithms & Data Structures** | Complexity analysis, optimization, problem-solving |
-| **Operating Systems** | Processes, concurrency, scheduling, memory management |
-| **Artificial Intelligence** | Machine learning, intelligent systems, model evaluation |
-| **Data Analytics** | Data processing, statistical analysis, visualization |
-| **Database Development** | SQL, relational models, persistence, Spring Data JPA |
-| **UI/UX Engineering** | User-centered design, prototyping, accessibility |
-| **Software Quality** | Testing, validation, automation, static analysis |
+| **Software Engineering** | Architecture, design patterns, Agile methodologies, maintainability |
+| **Backend Development** | Java, Spring Boot, REST APIs, application configuration |
+| **Database Engineering** | PostgreSQL, relational modeling, SQL, data persistence |
+| **Operating Systems** | Process management, concurrency, synchronization, resource utilization |
+| **Artificial Intelligence** | Machine learning, model evaluation, intelligent systems |
+| **Data Analytics** | Python, Pandas, data processing, visualization |
+| **UI/UX Design** | User-centered design, wireframing, prototyping, usability |
+| **Software Quality** | Automated validation, static analysis, secure development |
 
-## 04 / Repository Organization
+---
 
-Coursework is organized by course and module, with individual directories containing programming assignments, projects, experiments, and supporting documentation.
+## Featured Coursework
 
-Each course documents technical concepts, implementation approaches, and learning outcomes, providing a structured record of academic and engineering development.
+The following courses demonstrate my progression across core computer science and software engineering disciplines.
 
-## 05 / Engineering Principles
+| Course | Subject | Key Topics |
+|:---|:---|:---|
+| **CS-510** | Operating Systems Principles | Processes, concurrency, CPU and memory management |
+| **CS-530** | Artificial Intelligence | Machine learning, intelligent algorithms, model evaluation |
+| **CS-540** | Data Literacy & Visualization | Data preprocessing, clustering, interactive visualization |
+| **CS-560** | UI Design & Implementation | Prototyping, information architecture, usability |
+| **CS-600** | Software Design & Development | REST APIs, Spring Boot, PostgreSQL, application design |
 
-| Principle | Approach |
-|:---|:---|
-| **Design** | Analyze requirements and select appropriate architectures |
-| **Maintainability** | Write modular, readable, and documented code |
-| **Efficiency** | Evaluate algorithms and system resource utilization |
-| **Reliability** | Implement testing, validation, and code analysis |
-| **Iteration** | Refine solutions through evaluation and feedback |
-| **Systems Thinking** | Understand application and infrastructure interactions |
+---
 
-## 06 / CI/CD & Automation
+## Project Highlights
+
+### Backend Application Development
+**Java · Spring Boot · PostgreSQL**
+
+Development of database-backed applications using RESTful APIs, relational data models, and structured application architecture.
+
+### Data Analytics & Visualization
+**Python · Pandas · Scikit-learn**
+
+Data preprocessing, exploratory analysis, clustering algorithms, and interactive visualizations for interpreting complex datasets.
+
+### Operating Systems & Concurrency
+**Python · Multiprocessing · psutil**
+
+Practical exploration of operating system processes, synchronization, resource monitoring, and concurrent execution.
+
+### User Interface & Experience Design
+**Wireframing · Prototyping · Information Architecture**
+
+Designing intuitive application workflows using user-centered design principles, usability considerations, and iterative development.
+
+---
+
+## Repository Structure
+
+Coursework is organized by course and module, making it straightforward to explore individual assignments, projects, source code, and technical documentation.
+
+Each course directory serves as a record of applied concepts, implementation decisions, and ongoing technical development.
+
+---
+
+## Continuous Integration & Code Quality
+
+Automated workflows support consistent validation, code analysis, and repository maintenance.
+
+[![Python Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml)
+[![Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml)
+[![CodeQL](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml)
 
 | Workflow | Purpose |
 |:---|:---|
-| [Python Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml) | Automated coursework validation |
-| [Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml) | Python code quality checks |
-| [CodeQL Advanced](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml) | Security-focused static code analysis |
-| [Copilot Cloud Agent](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot) | GitHub Copilot automation |
+| [Python Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml) | Validate Python coursework and detect execution issues |
+| [Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml) | Enforce coding standards through automated checks |
+| [CodeQL Analysis](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml) | Identify potential security vulnerabilities and code weaknesses |
+| [Copilot Cloud Agent](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot) | Support automated software engineering workflows |
 
-<sub>Maintained by <a href="https://github.com/xtyledan">xtyledan</a> | MS Computer Science | Software Engineering</sub>
+---
+
+## Engineering Approach
+
+My development process emphasizes **clarity, reliability, maintainability, and continuous improvement**.
+
+I approach software engineering through requirements analysis, thoughtful system design, modular implementation, testing, and iterative refinement.
+
+Across my coursework, I aim to connect theoretical computer science knowledge with the technical practices used in professional software development.
+
+---
+
+## Repository Activity
+
+![Last Commit](https://img.shields.io/github/last-commit/xtyledan/ms-computer-science-coursework?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/xtyledan/ms-computer-science-coursework?style=flat-square)
+![Top Language](https://img.shields.io/github/languages/top/xtyledan/ms-computer-science-coursework?style=flat-square)
+
+---
+
+<div align="center">
+
+**Developed and maintained by [Tyler Daniels](https://github.com/xtyledan)**
+
+M.S. Computer Science · Software Engineering
+
+[Personal Portfolio](https://xtyledan.github.io/) · [GitHub](https://github.com/xtyledan)
+
+</div>
