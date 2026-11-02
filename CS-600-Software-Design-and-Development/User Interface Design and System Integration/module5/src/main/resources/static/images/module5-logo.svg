@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Student: Tyler Daniels -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Module5 Book Logo</title>
+  <rect width="64" height="64" rx="12" fill="#16324F"/>
+  <path d="M12 16 C20 13 26 14 32 18 C38 14 44 13 52 16 V48 C44 45 38 46 32 50 C26 46 20 45 12 48 Z" fill="#FFFFFF"/>
+  <path d="M32 18 V50" stroke="#16324F" stroke-width="3"/>
+  <path d="M18 24 H25 M18 31 H25 M39 24 H46 M39 31 H46" stroke="#008C95" stroke-width="3" stroke-linecap="round"/>
+</svg>
