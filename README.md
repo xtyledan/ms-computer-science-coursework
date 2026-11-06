@@ -113,6 +113,8 @@ Each course directory serves as a record of applied concepts, implementation dec
 
 ## Continuous Integration & Code Quality
 
+The checked-in workflows are `python-validation.yml`, `code-quality.yml`, and `codeql.yml`. Individual coursework projects vary in runtime requirements; workflow success is not proof that every assignment runs independently.
+
 Automated workflows support consistent validation, code analysis, and repository maintenance.
 
 [![Python Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml/badge.svg)](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml)
@@ -124,7 +126,6 @@ Automated workflows support consistent validation, code analysis, and repository
 | [Python Validation](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/python-validation.yml) | Validate Python coursework and detect execution issues |
 | [Code Quality](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/code-quality.yml) | Enforce coding standards through automated checks |
 | [CodeQL Analysis](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/codeql.yml) | Identify potential security vulnerabilities and code weaknesses |
-| [Copilot Cloud Agent](https://github.com/xtyledan/ms-computer-science-coursework/actions/workflows/copilot-swe-agent/copilot) | Support automated software engineering workflows |
 
 ---
 
