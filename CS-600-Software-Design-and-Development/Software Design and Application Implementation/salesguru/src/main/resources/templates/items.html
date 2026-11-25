@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sales Guru+ | Products</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+
+<header>
+    <h1>Sales Guru+</h1>
+
+    <nav>
+        <a th:href="@{/companies}">Companies</a>
+        <a th:href="@{/items}">Products</a>
+        <a th:href="@{/invoices}">Invoices</a>
+    </nav>
+
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</header>
+
+<main>
+    <h2>Product Management</h2>
+
+    <p class="success" th:if="${success}" th:text="${success}"></p>
+    <p class="error" th:if="${error}" th:text="${error}"></p>
+
+    <section class="card">
+        <h3>Add Product</h3>
+
+        <form th:action="@{/items}" method="post">
+            <label for="description">Description</label>
+            <input id="description"
+                   name="description"
+                   maxlength="128"
+                   required>
+
+            <label for="cost">Cost</label>
+            <input id="cost"
+                   name="cost"
+                   type="number"
+                   min="0"
+                   step="0.01"
+                   required>
+
+            <label for="retail">Retail Price</label>
+            <input id="retail"
+                   name="retail"
+                   type="number"
+                   min="0"
+                   step="0.01"
+                   required>
+
+            <button type="submit">Save Product</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h3>Available Products</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Item Number</th>
+                    <th>Description</th>
+                    <th>Cost</th>
+                    <th>Retail Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="item : ${items}">
+                    <td th:text="${item.itemNumber}"></td>
+                    <td th:text="${item.description}"></td>
+                    <td th:text="${item.cost}"></td>
+                    <td th:text="${item.retail}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+</body>
+</html>

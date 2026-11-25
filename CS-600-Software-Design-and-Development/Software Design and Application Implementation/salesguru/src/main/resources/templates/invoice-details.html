@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invoice Details | Sales Guru+</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+
+<header>
+    <a class="brand" th:href="@{/invoices}">Sales Guru+</a>
+
+    <nav>
+        <a th:href="@{/companies}">Companies</a>
+        <a th:href="@{/items}">Products</a>
+        <a th:href="@{/invoices}">Invoices</a>
+    </nav>
+
+    <form th:action="@{/logout}" method="post">
+        <button class="secondary" type="submit">Logout</button>
+    </form>
+</header>
+
+<main>
+    <h1>
+        Invoice #
+        <span th:text="${invoice.invoiceNumber}"></span>
+    </h1>
+
+    <section class="panel">
+        <p>
+            <strong>Company:</strong>
+            <span th:text="${invoice.companyName}"></span>
+        </p>
+
+        <p>
+            <strong>Representative:</strong>
+            <span th:text="${invoice.representativeName}"></span>
+        </p>
+
+        <p>
+            <strong>Date of Sale:</strong>
+            <span th:text="${invoice.dateOfSale}"></span>
+        </p>
+    </section>
+
+    <h2>Purchased Items</h2>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Discount</th>
+                    <th>Line Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="line : ${invoice.lines}">
+                    <td th:text="${line.description}"></td>
+                    <td th:text="${line.quantity}"></td>
+                    <td th:text="${line.unitPrice}"></td>
+                    <td th:text="${line.discountPercent}"></td>
+                    <td th:text="${line.lineTotal}"></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="4">Invoice Total</th>
+                    <th th:text="${invoice.total}"></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <a class="button secondary" th:href="@{/invoices}">
+        Back to Invoices
+    </a>
+</main>
+
+</body>
+</html>

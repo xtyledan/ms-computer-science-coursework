@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sales Guru+ | Companies</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+
+<header>
+    <h1>Sales Guru+</h1>
+    <nav>
+        <a th:href="@{/companies}">Companies</a>
+        <a th:href="@{/items}">Products</a>
+        <a th:href="@{/invoices}">Invoices</a>
+    </nav>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</header>
+
+<main>
+    <h2>Companies</h2>
+
+    <section class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Customer Number</th>
+                    <th>Company Name</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="company : ${companies}">
+                    <td th:text="${company.customer_number}"></td>
+                    <td th:text="${company.name}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+</body>
+</html>

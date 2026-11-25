@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Invoice | Sales Guru+</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+
+<header>
+    <a class="brand" th:href="@{/invoices}">Sales Guru+</a>
+
+    <nav>
+        <a th:href="@{/companies}">Companies</a>
+        <a th:href="@{/items}">Products</a>
+        <a th:href="@{/invoices}">Invoices</a>
+    </nav>
+
+    <form th:action="@{/logout}" method="post">
+        <button class="secondary" type="submit">Logout</button>
+    </form>
+</header>
+
+<main>
+    <h1>Create Invoice</h1>
+
+    <p class="muted">
+        Discounts are percentages from 0 to 100.
+    </p>
+
+    <p class="alert error"
+       th:if="${error}"
+       th:text="${error}">
+    </p>
+
+    <form th:action="@{/invoices}" method="post" class="panel">
+
+        <div class="form-grid">
+
+            <label>
+                Company
+                <select name="customerNumber" required>
+                    <option value="">Select Company</option>
+
+                    <option th:each="company : ${companies}"
+                            th:value="${company.customer_number}"
+                            th:text="${company.name}">
+                    </option>
+                </select>
+            </label>
+
+            <label>
+                Representative
+                <select name="representativeId" required>
+                    <option value="">Select Representative</option>
+
+                    <option th:each="rep : ${representatives}"
+                            th:value="${rep.representative_id}"
+                            th:text="${rep.first + ' ' + rep.last}">
+                    </option>
+                </select>
+            </label>
+
+            <label>
+                Date of Sale
+                <input type="date"
+                       name="dateOfSale"
+                       th:value="${today}"
+                       th:max="${today}"
+                       required>
+            </label>
+
+        </div>
+
+        <h2>Invoice Line Items</h2>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Discount (%)</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="invoice-lines">
+                    <tr>
+                        <td>
+                            <select name="itemNumber" required>
+                                <option th:each="item : ${items}"
+                                        th:value="${item.itemNumber}"
+                                        th:text="${item.description}">
+                                </option>
+                            </select>
+                        </td>
+
+                        <td>
+                            <input type="number"
+                                   name="quantity"
+                                   value="1"
+                                   min="1"
+                                   required>
+                        </td>
+
+                        <td>
+                            <input type="number"
+                                   name="discountPercent"
+                                   value="0"
+                                   min="0"
+                                   max="100"
+                                   step="0.01"
+                                   required>
+                        </td>
+
+                        <td>
+                            <button type="button"
+                                    class="secondary remove-line">
+                                Remove
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <template id="line-template">
+            <tr>
+                <td>
+                    <select name="itemNumber" required>
+                        <option th:each="item : ${items}"
+                                th:value="${item.itemNumber}"
+                                th:text="${item.description}">
+                        </option>
+                    </select>
+                </td>
+
+                <td>
+                    <input type="number"
+                           name="quantity"
+                           value="1"
+                           min="1"
+                           required>
+                </td>
+
+                <td>
+                    <input type="number"
+                           name="discountPercent"
+                           value="0"
+                           min="0"
+                           max="100"
+                           step="0.01"
+                           required>
+                </td>
+
+                <td>
+                    <button type="button"
+                            class="secondary remove-line">
+                        Remove
+                    </button>
+                </td>
+            </tr>
+        </template>
+
+        <div class="actions">
+            <button type="button"
+                    id="add-line"
+                    class="secondary">
+                Add Line
+            </button>
+
+            <button type="submit">
+                Save Invoice
+            </button>
+        </div>
+    </form>
+</main>
+
+<script th:src="@{/app.js}"></script>
+</body>
+</html>
